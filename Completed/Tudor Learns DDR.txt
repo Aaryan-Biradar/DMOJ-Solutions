@@ -1,0 +1,50 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+
+char L1,L2,L3;
+
+  cin >> L1;
+  cin >> L2;
+  cin >> L3;
+
+  if (L1 == 'L' || L1 == 'R') {
+    if (L2 == 'U' || L2 == 'D') {
+      if (L3 == 'R' && L1 != 'R') {
+        cout <<"Crossover"<<endl;
+      }
+      else if (L3 == 'L' && L1 != 'L') {
+        cout <<"Crossover"<<endl;
+      }
+      else {
+        cout <<"Neither"<<endl;
+      }
+    }
+    else {
+      cout <<"Neither"<<endl;
+    }
+  }
+    
+  else {
+    if (L2 == 'L' || L2 == 'R') {
+      if (L3 == 'U' && L1 != 'U') {
+        cout <<"Candle"<<endl;
+      }
+      else if (L3 == 'D' && L1 != 'D') {
+        cout <<"Candle"<<endl;
+      }
+      else {
+        cout <<"Neither"<<endl;
+      }
+    }
+    else {
+      cout <<"Neither"<<endl;
+    }
+  }
+  
+
+}

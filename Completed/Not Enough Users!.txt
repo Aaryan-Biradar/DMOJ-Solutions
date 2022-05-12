@@ -1,0 +1,34 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+//COVID Party I have the pattern (Not possibl with What I know)
+
+// Love triangle (Huh)
+//Tudor buys some tea (shoulve worked)
+//What is n daddy?
+
+int user,mul,day;
+
+  cin >> user;
+  cin >> mul;
+  cin >> day;
+
+  for (int i = 0; i < day; i++){
+    
+    user = user * mul;
+    
+  }
+
+  cout <<user;
+  
+
+
+
+
+
+  
+}

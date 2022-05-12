@@ -1,0 +1,50 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+int main() {
+
+//Faktor No idea
+//COVID Party I have the pattern
+//Flare
+//Mimi and video games
+
+
+//World Pop I have formula (Clipped)
+//Slatkisi (Clipped)
+
+//Shoes
+
+char S_F,S_S,S_T,S_Fth;
+
+cin >>S_F>>S_S>>S_T>>S_Fth;
+
+if (S_F == 'L') {
+  if (S_S == 'L'){
+    cout <<1<<" "<<3<<endl;
+    cout <<2<<" "<<4<<endl;
+  }
+
+  else {
+    cout <<1<<" "<<2<<endl;
+    cout <<3<<" "<<4<<endl;
+
+  }
+
+
+}
+
+else{ 
+  if (S_S == 'L') {
+    cout <<1<<" "<<2<<endl;
+    cout <<3<<" "<<4<<endl;
+  }
+
+  else {
+    cout <<1<<" "<<3<<endl;
+    cout <<2<<" "<<4<<endl;
+  }
+}
+
+
+}

@@ -1,0 +1,34 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+
+int N,mark,markL;
+
+  cin >> N;
+
+  cin >> mark;
+
+  markL = mark;
+
+  if (mark <= markL){
+    markL = mark;
+  }
+
+  for (int i = 1; i < N;i++){
+
+    cin >> mark;
+
+    if (mark <= markL) {
+      markL = mark;
+    }
+    
+  }
+
+  cout <<markL<<endl;
+  
+
+}

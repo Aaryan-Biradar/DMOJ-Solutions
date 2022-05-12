@@ -1,0 +1,35 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+//COVID Party I have the pattern (Not possibl with What I know)
+
+// Love triangle (Huh)
+//Tudor buys some tea (shoulve worked)
+//What is n daddy?
+
+int N,R,B,G,count = 0;
+
+  cin >> N;
+  
+  for (int i = 0; i < N;i++) {
+
+    cin >> R >> G >> B ;
+
+    if (R >= 240 && R <= 255 && G >= 0 && G <= 200 && B >= 95 && B <= 220){
+      count++;
+    }
+    
+  }
+
+  cout <<count<<endl;
+
+
+
+
+
+  
+}

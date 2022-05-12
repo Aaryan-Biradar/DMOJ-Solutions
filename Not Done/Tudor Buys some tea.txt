@@ -1,0 +1,26 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+//COVID Party I have the pattern (Not possibl with What I know)
+  
+// Love triangle (Huh)
+//Tudor buys some tea (shoulve worked)
+//Pizza orders
+//Which Allien?
+//What is n daddy?
+
+  long double N,K,T;
+
+  cin >> N >>K;
+
+  T = N - N/(K+1);
+
+  cout <<T<<endl;
+  
+
+
+}

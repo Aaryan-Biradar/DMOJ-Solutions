@@ -1,0 +1,62 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+//COVID Party I have the pattern (Not possibl with What I know)
+
+// Love triangle (Huh)
+//Tudor buys some tea (shoulve worked)
+//What is n daddy?
+
+//Ren Ashbell (9/10)
+//An Early Christmas Present (%50)
+//Discerning discounts (11/18)
+//Itami and Manga (3/10)
+//Košnja (use big brain math)
+//War on Two Fronts (clipped)
+
+
+iint bowl1,bowl2,bowl3;
+
+  cin >> bowl1;
+  cin >> bowl2;
+  cin >> bowl3;
+
+  if (bowl1 > bowl2){
+    if (bowl1 > bowl3){
+      if (bowl2 > bowl3){
+        cout <<bowl2<<endl;
+      }
+      else {
+        cout <<bowl3<<endl;
+      }
+    }
+    else {
+      cout <<bowl1<<endl;
+    }
+  }
+
+  else {
+    if (bowl3 > bowl1){
+      if (bowl3 > bowl2) {
+        cout <<bowl2<<endl;
+      }
+      else {
+        cout <<bowl3<<endl;
+      }
+    }
+    else {
+      cout <<bowl1<<endl;
+    }
+  }
+}
+
+
+
+
+
+
+  

@@ -1,0 +1,36 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+//COVID Party I have the pattern (Not possibl with What I know)
+  
+// Love triangle (Huh)
+//Tudor buys some tea
+//Pizza orders
+//Which Allien?
+//What is n daddy?
+
+  long double N,M,sum,dif,prd;
+
+  cin >> N;
+  cin >> M;
+
+  sum = N + M;
+  dif = fabs(N) - fabs(M);
+  prd = N * M;
+
+  if (sum >= dif && sum >= prd){
+    cout <<setprecision(100)<<sum;
+  }
+  else if (dif >= sum && dif >= prd){
+      cout <<setprecision(100)<<dif;
+    }
+    else 
+      cout <<setprecision(100)<<prd<<endl;
+  
+
+
+}

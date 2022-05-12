@@ -1,0 +1,48 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+//COVID Party I have the pattern (Not possibl with What I know)
+
+// Love triangle (Huh)
+//Tudor buys some tea (shoulve worked)
+//Pizza orders
+//Which Allien?
+//What is n daddy?
+
+  int P,C,V,Pt,Vt,Ct,Pr,Cr,Vr,total;
+
+  cin >> P >> C >> V;
+
+  Pt = P / 3;
+  Ct = C / 3;
+  Vt = V / 3;
+
+  Pr = P % 3;
+  Cr = C % 3;
+  Vr = V % 3;
+
+ 
+  if (Pr != 0) {
+    Pt = Pt + 1;
+  }
+    
+
+  if (Cr != 0){
+    Ct = Ct + 1;
+  }
+ 
+
+  if (Vr != 0){
+    Vt = Vt + 1;
+  }
+  
+  total = Pt + Ct + Vt;
+
+  cout<<total<<endl;
+
+
+}

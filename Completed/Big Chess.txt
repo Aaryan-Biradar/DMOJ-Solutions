@@ -1,0 +1,50 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+  int counterW,counterH,loopM= 1,pat1 = 2,loop1=0,loop2=0,pat2 = 1;
+
+  cin >>counterW;
+  cin >>counterH;
+
+  while (loopM <= counterH) {
+      
+      if (loopM % 2 == 1) { //odd
+        loop1 = 0;
+        pat1 = 2;
+        while (loop1 < counterW) {
+          if (pat1 % 2 == 0) {
+            cout <<"0";
+          }
+          else {
+            cout<<"1";
+          }
+          loop1++;
+          pat1++;
+        }
+      }
+      
+      else if (loopM % 2 == 0){ // even
+        loop2 = 0;
+        pat2 = 1;
+        while (loop2 < counterW) {
+          if (pat2 % 2 == 1) {
+            cout <<"1";
+          }
+          else {
+            cout<<"0";
+          }
+          loop2++;
+          pat2++;
+        }
+      }
+    cout<<endl;
+    loopM++;
+  }
+
+  
+}
+

@@ -1,0 +1,44 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+//COVID Party I have the pattern (Not possibl with What I know)
+
+// Love triangle (Huh)
+//Tudor buys some tea (shoulve worked)
+//What is n daddy?
+
+
+//Discerning discounts (11/18)
+
+double N,price,sale,PAS,MaxM,count = 0;
+
+  cin >> N;
+  cin >> MaxM;
+
+  for (int i = 0; i < N;i++){
+
+    cin >> price;
+    cin >> sale;
+
+    PAS = price-(sale/100*price);
+
+    if (PAS <= MaxM){
+      count++;
+    }
+
+  }
+
+  cout <<count<<endl;
+  
+
+
+
+
+
+
+  
+}

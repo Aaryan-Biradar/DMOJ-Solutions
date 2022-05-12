@@ -1,0 +1,23 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main() {
+
+//VPEX P0 - Pizza
+
+
+int x,n,rem,slices;
+
+cin >> x >> n;
+
+slices = x/n;
+rem = x%n;
+
+cout <<slices<<" "<<rem<<endl;
+
+
+
+
+
+
+}

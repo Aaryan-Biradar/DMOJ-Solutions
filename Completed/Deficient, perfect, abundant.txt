@@ -1,0 +1,42 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+
+int n,diviser = 1,total = 0,num,i=0;
+
+  cin >>num;
+  while (i < num) {
+    
+    cin >> n;
+    
+    diviser = 1;
+    total = 0;
+    while (diviser < n) {
+    
+      if (n % diviser == 0) {
+      total = total + diviser; 
+      }
+      diviser++; 
+    }
+
+
+    if (total < n){
+      cout<<n<<" is a deficient number."<<endl;
+    }
+    else if (total == n){
+      cout<<n<<" is a perfect number."<<endl;
+    }
+    else {
+      cout <<n<<" is an abundant number."<<endl;
+    }
+    i++;
+  }
+
+  return 0;
+  
+}
+

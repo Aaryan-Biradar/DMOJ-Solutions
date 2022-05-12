@@ -1,0 +1,20 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main() {
+
+//Another Contest 5 Problem 1 - Goat Fence
+
+int N,fence;
+
+cout << "Enter number of of goats" << endl;
+cin >> N;
+
+fence = 2*N+2;
+
+cout << "The amount of fencing required to cover an area of " <<N<< " it will require " <<fence<< " meters of fence" << endl;
+
+
+
+
+}

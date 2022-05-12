@@ -1,0 +1,33 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+//COVID Party I have the pattern (Not possibl with What I know)
+
+// Love triangle (Huh)
+//Tudor buys some tea (shoulve worked)
+//Which Allien? (2/5)
+//What is n daddy?
+
+  int Ant,Eye;
+
+  cin >> Ant;
+  cin >> Eye;
+
+  if (Ant >= 3 && Eye <= 4){
+      cout <<"TroyMartian\n";
+  }
+
+  if (Ant <= 6 && Eye >= 2){
+      cout <<"VladSaturnian\n";
+  }
+
+  if (Ant <= 2 && Eye <= 3){
+      cout <<"GraemeMercurian\n";
+  }
+
+
+}

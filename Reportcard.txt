@@ -1,0 +1,25 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+
+double N,grade;
+double total = 0;;
+
+  cin >> N;
+
+  for (int i = 0; i < N; i++){
+    cin >> grade;
+
+    total = total + grade;
+  }
+
+  double avg = total/N;
+
+  cout <<setprecision(3)<<avg<<endl;
+  
+
+}

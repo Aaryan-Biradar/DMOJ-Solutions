@@ -1,0 +1,30 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+  int i = 0,n,num1,num2,output;
+
+  cin >>n;
+  while (i < n) {
+    cin >> num1;
+    cin >> num2;
+
+    if (num1 < num2 || num1 == num2) {
+      output = 2*(num1 - 1);
+      cout <<output<<endl;
+    }
+    else {
+      output = 2*(num2 - 1);
+      cout <<output<<endl;
+    }
+    i++;
+  }
+  
+
+
+  
+
+}

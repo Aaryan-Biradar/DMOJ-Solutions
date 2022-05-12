@@ -1,0 +1,61 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+//COVID Party I have the pattern (Not possibl with What I know)
+
+// Love triangle (Huh)
+//Tudor buys some tea (shoulve worked)
+//What is n daddy?
+
+//Ren Ashbell (9/10)
+//An Early Christmas Present (%50)
+//Discerning discounts (11/18)
+//Itami and Manga (3/10)
+//Košnja (use big brain math)
+//War on Two Fronts (clipped)
+
+
+int year,N;
+
+cin >> N;
+
+for (int i = 0;i < N;i++) {
+
+  
+cin >> year;
+
+if (year % 4 == 0){
+  if (year % 100 != 0){
+    cout <<"1"<<endl;
+  }
+  else {
+    if (year % 400 == 0) {
+    cout <<"1"<<endl;
+  }
+    else {
+    cout <<"0"<<endl;
+    }
+  }
+}
+
+else {
+  if (year % 400 == 0) {
+    cout <<"1"<<endl;
+  }
+  else {
+    cout <<"0"<<endl;
+  }
+}
+}
+}
+
+
+
+
+
+
+  

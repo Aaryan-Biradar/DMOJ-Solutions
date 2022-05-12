@@ -1,0 +1,24 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main() {
+
+//DWITE '07 R1 #2 - Cubes in a Pyramid
+
+//DID NOT GET 5/5 ONLY 4/5
+
+
+double H,L,vol;
+
+cin >> L;
+cin >> H;
+
+vol = (L*L*H)/3;
+
+cout <<ceil(vol)<<endl;
+
+
+
+
+
+}

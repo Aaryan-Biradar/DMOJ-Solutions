@@ -1,0 +1,31 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+int main() {
+
+//CCC '09 J1 - Waiting
+
+
+int timeH,timeM,timeS,timeH2,timeM2,timeS2,total;
+char colon;
+
+cin >>timeH>>colon>>timeM>>colon>>timeS;
+cin >>timeH2>>colon>>timeM2>>colon>>timeS2;
+
+timeH = (timeH-timeH2)*3600;
+timeM = (timeM-timeM2)*60;
+timeS = timeS-timeS2;
+
+total = (timeH+timeM+timeS)*-1;
+
+cout<<total;
+
+
+
+
+
+
+
+
+}

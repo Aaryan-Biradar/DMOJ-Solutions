@@ -1,0 +1,37 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+int main() {
+
+//Faktor No idea
+//COVID Party I have the pattern
+//Flare
+
+
+//World Pop I have formula (Clipped)
+//Slatkisi (Clipped)
+
+int numA,numB,revA,revB;
+int numA1,numA2,numA3;
+int numB1,numB2,numB3;
+
+cin >> numA;
+cin >> numB;
+
+numA1 = numA/100;
+numA2 = (numA/10) % 10;
+numA3 = numA % 10;
+
+numB1 = numB/100;
+numB2 = (numB/10) % 10;
+numB3 = numB % 10;
+
+revA = numA3*100 + numA2 *10 + numA1;
+revB = numB3*100 + numB2 *10 + numB1;
+
+if (revA > revB)
+  cout <<revA<<endl;
+else
+  cout <<revB<<endl;
+}

@@ -1,0 +1,29 @@
+#include <iostream>
+#include <math.h>
+#include <iomanip>
+using namespace std;
+int main() {
+
+//Faktor No idea
+//COVID Party I have the pattern
+
+//World Pop I have formula (Clipped)
+//Slatkisi (Clipped)
+
+int P,Z,numH;
+
+cin >> P;
+cin >> Z;
+
+numH = P / (pow(10,Z));
+
+numH = round(numH)*pow(10,Z);
+
+cout <<numH<<endl;
+
+
+
+
+
+
+}

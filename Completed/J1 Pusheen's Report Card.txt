@@ -1,0 +1,25 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+
+int A,B;
+
+  cin >> A;
+  cin >> B;
+
+  if (A > B){
+    cout <<"CS452"<<endl;
+  }
+  else if (A == B){
+  }
+  else {
+    cout <<"PHIL145"<<endl;
+  }
+
+  
+
+}

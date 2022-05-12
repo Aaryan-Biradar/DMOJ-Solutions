@@ -1,0 +1,46 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+//COVID Party I have the pattern (Not possibl with What I know)
+
+// Love triangle (Huh)
+//Tudor buys some tea (shoulve worked)
+//What is n daddy?
+
+//Ren Ashbell (9/10)
+
+int N,renP,power,countN = 0;
+
+  cin >> N;
+  cin >> renP;
+
+  for (int i = 1; i < N;i++){
+
+    cin >> power;
+
+    if (power >= renP) {
+      countN++;
+    }
+    
+  }
+
+  if (countN == 0) {
+    cout <<"YES"<<endl;
+  }
+    
+  else {
+    cout <<"NO"<<endl;
+  }
+  
+
+
+
+
+
+
+  
+}

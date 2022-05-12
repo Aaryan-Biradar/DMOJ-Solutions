@@ -1,0 +1,22 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+  char check;
+  int i = 0,counter = 0;
+
+  while (i < 5) {
+    cin >>check;
+
+    if (check == 'P') {
+      counter++;
+    }
+    
+    i++;
+  }
+  cout <<counter<<endl;
+}
+

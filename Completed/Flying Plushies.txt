@@ -1,0 +1,37 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+//COVID Party I have the pattern (Not possibl with What I know)
+
+// Love triangle (Huh)
+//Tudor buys some tea (shoulve worked)
+//What is n daddy?
+
+  int pH = 0,catT = 0,catH = 0,hit = 0;
+
+  cin >> pH;
+  cin >> catT;
+
+  while (catT > 0) {
+    cin >> catH;
+
+    if (catH >= pH){
+      hit++;
+    }
+
+    catT--;
+    
+  }
+
+  cout <<hit;
+
+
+
+
+
+  
+}

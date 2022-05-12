@@ -1,0 +1,29 @@
+#include <iostream>
+#include <math.h>
+#include <iomanip>
+using namespace std;
+int main() {
+
+//COCI '09 Contest 2 #1 Faktor
+//Im lost on what it wants from me
+
+long double p,y,n,year;
+
+cin >> p;
+cin >> y;
+cin >> n;
+cin >> year;
+
+y = year - y;
+
+n = n * pow((1 +  p/100),y);
+
+cout <<setprecision(100)<<round(n)<<endl;
+
+
+
+
+
+
+
+}

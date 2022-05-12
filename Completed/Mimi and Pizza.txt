@@ -1,0 +1,41 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+
+int budget,pizza;
+char veg;
+
+  cin >> budget;
+  cin >> pizza;
+  cin >> veg;
+
+  if (veg == 'Y'){
+    if (pizza*5 <= budget){
+      cout <<"B"<<endl;
+    }
+    else if (pizza*2 <= budget){
+      cout <<"D"<<endl;
+    }
+    else {
+      cout <<"NO PIZZA"<<endl;
+    }
+
+  }
+
+  else {
+    if (pizza*5 <= budget){
+      cout <<"A"<<endl;
+    }
+    else if (pizza*2 <= budget){
+      cout <<"C"<<endl;
+    }
+    else {
+      cout <<"NO PIZZA"<<endl;
+    } 
+  }
+
+}

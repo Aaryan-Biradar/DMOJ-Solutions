@@ -1,0 +1,28 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+  int A,B,i = 0,counter = 0,pefSquare;
+
+  cin >>A;
+  cin >>B;
+
+  while (i < B) {
+
+    pefSquare = i * i;
+    
+    if (pefSquare >= A && pefSquare <= B) {
+      counter++;
+    }
+
+    i++;
+  }
+
+  cout<<counter<<endl;
+
+  
+}
+

@@ -1,0 +1,22 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main() {
+
+//DMPG '16 B1 - BFS
+
+
+int N,D,Q,L,T,salary;
+  
+
+cin >>N>>D>>Q>>L>>T;
+
+salary = N*5 + D*10 + Q*25 + L*100 + T*200;
+
+cout << salary << endl;
+
+
+
+
+
+}

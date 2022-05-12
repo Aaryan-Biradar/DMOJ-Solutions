@@ -1,0 +1,37 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+//COVID Party I have the pattern (Not possibl with What I know)
+
+// Love triangle (Huh)
+//Tudor buys some tea (shoulve worked)
+//What is n daddy?
+
+int N,leng,min,max,fin;
+
+  cin >> N;
+  
+  for (int i = 0; i < N;i++) {
+
+    cin >> leng >> min >> max >> fin;
+
+    leng = leng - fin;
+
+    if (leng >= min && leng <= max)
+      cout <<"Yes"<<endl;
+    else
+      cout <<"No"<<endl;
+    
+  }
+  
+
+
+
+
+
+  
+}

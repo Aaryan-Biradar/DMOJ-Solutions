@@ -1,0 +1,32 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+int main() {
+
+//Faktor No idea
+//COVID Party I have the pattern
+//Flare
+//Mimi and video games
+
+
+//World Pop I have formula (Clipped)
+//Slatkisi (Clipped)
+
+int N,A,R,I;
+
+cin >>N>>A>>R;
+
+I = R/A;
+
+if (I > N)
+  cout <<N<<endl;
+else
+  cout <<I<<endl;
+
+
+
+
+
+
+}

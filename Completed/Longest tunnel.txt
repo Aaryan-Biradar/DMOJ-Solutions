@@ -1,0 +1,46 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+//COVID Party I have the pattern (Not possibl with What I know)
+
+// Love triangle (Huh)
+//Tudor buys some tea (shoulve worked)
+//What is n daddy?
+
+//Ren Ashbell (9/10)
+//An Early Christmas Present (%50)
+//Discerning discounts (11/18)
+// Itami and Manga (3/10)
+// Košnja (use big brain math)
+
+int N,TunS,TunE,TunT,TunH = TunT;
+  
+  cin >> N;
+
+  for (int i = 0; i < N;i++){
+
+    cin >> TunS;
+    cin >> TunE;
+
+    TunT = TunE - TunS;
+
+    if (TunT > TunH){
+      TunH = TunT;
+    }
+
+  }
+
+  cout <<TunH<<endl;
+  
+
+
+
+
+
+
+  
+}

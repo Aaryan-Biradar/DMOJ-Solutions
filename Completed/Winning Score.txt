@@ -1,0 +1,34 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+
+int A3,A2,A1,B3,B2,B1,apples,bananas;
+  
+  cin >> A3;
+  cin >> A2;
+  cin >> A1;
+  cin >> B3;
+  cin >> B2;
+  cin >> B1;
+
+  apples = A3 * 3 + A2 * 2 + A1;
+  bananas = B3 * 3 + B2 * 2 + B1;
+
+  if (apples > bananas) {
+    cout <<"A"<<endl;
+  }
+
+  else if (apples == bananas) {
+    cout <<"T"<<endl;
+  }
+
+  else if (apples < bananas) {
+    cout <<"B"<<endl;
+  }
+  
+
+}

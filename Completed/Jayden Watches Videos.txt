@@ -1,0 +1,27 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+int main() {
+
+//COCI '09 Contest 2 #1 Faktor
+//World Pop
+
+	int L,x,t;
+	
+	cin >> L;
+	cin >> x;
+	
+	t = L*x-L;
+	
+	cout <<t<<endl;
+
+
+
+
+
+
+
+
+
+}

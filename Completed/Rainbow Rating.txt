@@ -1,0 +1,61 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main() {
+
+
+int N,R;
+
+  cin >> N;
+
+  for (int i = 0;i < N;i++) {
+
+    cin >> R;
+  
+    if (R < 1000){
+      cout <<"Newbie"<<endl;
+    }
+
+    else if (R >= 1000 && R <= 1199){
+      cout <<"Amateur"<<endl;
+    }
+
+    else if (R >= 1200 && R <= 1499){
+       
+      cout <<"Expert"<<endl;
+    }
+
+    else if (R >= 1500 && R <= 1799){
+       
+      cout <<"Candidate Master"<<endl;
+    }
+
+    else if (R >= 1800 && R <= 2199){
+       
+      cout <<"Master"<<endl;
+    }
+
+    else if (R >= 2200 && R <= 2999){
+       
+      cout <<"Grandmaster"<<endl;
+    }
+
+    else if (R >= 3000 && R <= 3999){
+       
+      cout <<"Target"<<endl;
+    }
+
+    else if (R >= 4000){
+      cout <<"Rainbow Master"<<endl;
+    }
+      
+
+  }
+    
+
+
+  
+
+}

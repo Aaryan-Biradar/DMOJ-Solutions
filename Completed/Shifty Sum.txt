@@ -1,0 +1,23 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+
+
+int main(){
+
+  int num,shift,newNum = 0;
+
+  cin >> num;
+  cin >> shift;
+
+  for (int i = 0;i <= shift;i++){
+    newNum = newNum + (num*pow(10,i));
+  }
+
+  cout<<newNum;
+
+  
+}
+
