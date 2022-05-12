@@ -6,4 +6,5 @@ main.o
 replit.nix
 .ccls-cache
 Makefile
-! List.txt
+List.txt
+.gitignore
